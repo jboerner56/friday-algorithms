@@ -43,8 +43,21 @@ function maxSumOfArray(nums, n){
             sum = tempSum;
         }
         
-        tempSum -= nums[i-n+1]
+        tempSum -= numfs[i-n+1]
     }
     return sum;
 }
 maxSumOfArray([1,2,5,2,8,1,5], 2);
+
+// write a function that accepts an array and a number, checks if the integer resides inside the array and return the index value.
+// if the number is not found return -1
+
+function isThere (arr, num){
+    for (let i=0; i <= arr.length; i++){
+        if (arr[i] === num){
+            return sum;
+        } 
+    }
+    return -1;
+}
+isThere([1,2,2,3,4,5,5,6], 2);
